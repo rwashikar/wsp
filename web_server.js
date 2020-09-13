@@ -20,6 +20,6 @@ app.get("/dad/is/a/baycouf", (req, res) => {
     ];
     res.send(commits);
 });
-app.listen(5305, () => {
-    console.log("Listening on port 5305");
+app.listen(80, () => {
+    console.log("Listening on port 80");
 })
